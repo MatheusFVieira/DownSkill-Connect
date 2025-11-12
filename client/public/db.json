@@ -1,0 +1,631 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Silva",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=AS",
+    "cargo": "Especialista em Automação de Processos",
+    "resumo": "Transformo operações manuais complexas de logística em dashboards simples e automatizados. Menos treinamento, mais eficiência.",
+    "localizacao": "São Paulo/SP",
+    "area": "Logística",
+    "habilidadesTecnicas": ["React", "Python", "RPA", "Firebase", "SQL"],
+    "softSkills": ["Comunicação Clara", "Visão de Processo", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "LogiMax Solutions",
+        "cargo": "Consultora de DownSkilling",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Desenvolvi um sistema web que guiava os funcionários do armazém passo a passo, reduzindo o tempo de integração de 3 semanas para 2 dias."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "FIAP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma 'LogiFácil'",
+        "link": "#",
+        "descricao": "Software que converte planilhas de inventário complexas em uma interface de 'arrastar e soltar' para gerenciamento de estoque."
+      }
+    ],
+    "certificacoes": ["AWS Certified Solutions Architect"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["IA para PMEs", "Simplificação de UI/UX"]
+  },
+  {
+    "id": 2,
+    "nome": "Bruno Costa",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=BC",
+    "cargo": "Arquiteto de Simplificação Financeira",
+    "resumo": "Automatizo relatórios de fechamento de mês. Menos planilhas, mais decisões. Substituo Excel complexo por interfaces web intuitivas.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Finanças",
+    "habilidadesTecnicas": ["Python", "Pandas", "SQL", "PowerBI", "SAP"],
+    "softSkills": ["Pensamento Analítico", "Foco no Detalhe", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "BancoInvest",
+        "cargo": "Analista de Automação",
+        "inicio": "2021-06",
+        "fim": "Atual",
+        "descricao": "Criei um script que consolida 10 planilhas de faturamento em um dashboard em 5 minutos, um processo que levava 3 dias."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFRJ",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma 'FinançaFácil'",
+        "link": "#",
+        "descricao": "Plataforma web que guia o usuário no preenchimento de notas de despesa, validando campos automaticamente."
+      }
+    ],
+    "certificacoes": ["Microsoft Certified: Power BI Data Analyst"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Fintechs", "Blockchain"]
+  },
+  {
+    "id": 3,
+    "nome": "Carla Dias",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=CD",
+    "cargo": "Especialista em Onboarding Digital",
+    "resumo": "Construo plataformas de boas-vindas que novos funcionários amam. Tudo em um só lugar, com checklists e guias visuais.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "RH",
+    "habilidadesTecnicas": ["JavaScript", "Bubble.io", "Notion API", "Typeform", "React"],
+    "softSkills": ["Empatia", "Design de Experiência", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "GenteTech",
+        "cargo": "Designer de Experiência de RH",
+        "inicio": "2020-01",
+        "fim": "Atual",
+        "descricao": "Desenvolvi um 'Buddy System' automatizado que agenda reuniões e envia checklists para novos contratados e seus gestores."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "UFMG",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'Bem-Vindo'",
+        "link": "#",
+        "descricao": "App que gamifica o processo de integração, com trilhas de conhecimento e organograma interativo."
+      }
+    ],
+    "certificacoes": ["Certificação em UX Design"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["People Analytics", "No-Code"]
+  },
+  {
+    "id": 4,
+    "nome": "Daniel Moreira",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=DM",
+    "cargo": "Designer de Experiência em Saúde",
+    "resumo": "Redesenho fluxos de agendamento de pacientes e preenchimento de prontuários. Menos cliques, menos frustração, mais cuidado.",
+    "localizacao": "Curitiba/PR",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Figma", "React Native", "Node.js", "SQL", "HL7/FHIR"],
+    "softSkills": ["Empatia", "Pesquisa com Usuário", "Comunicação Clara"],
+    "experiencias": [
+      {
+        "empresa": "Hospital Viver",
+        "cargo": "UX/UI Designer Sênior",
+        "inicio": "2019-05",
+        "fim": "Atual",
+        "descricao": "Liderei o redesenho do app de agendamento, resultando em 40% menos ligações no call center e 95% de adoção pelos pacientes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design de Produto",
+        "instituicao": "PUC-PR",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Protótipo de totem de autoatendimento",
+        "link": "#",
+        "descricao": "Totem para check-in em clínicas, reduzindo o tempo de espera na recepção de 15 para 2 minutos."
+      }
+    ],
+    "certificacoes": ["NN/g UX Certification"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }, { "idioma": "Espanhol", "nivel": "Intermediário" }],
+    "areaInteresses": ["HealthTech", "Acessibilidade Digital"]
+  },
+  {
+    "id": 5,
+    "nome": "Eduarda Lima",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=EL",
+    "cargo": "Consultora de DownSkilling para Varejo",
+    "resumo": "Simplifico o gerenciamento de e-commerce. Integro plataformas e crio dashboards que qualquer um pode entender.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Varejo",
+    "habilidadesTecnicas": ["Shopify API", "VTEX", "JavaScript", "SQL", "Google Analytics"],
+    "softSkills": ["Visão de Negócio", "Organização", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "VarejoConecta",
+        "cargo": "Analista de E-commerce",
+        "inicio": "2021-02",
+        "fim": "Atual",
+        "descricao": "Automatizei a atualização de estoque entre o ERP e 3 marketplaces (Mercado Livre, Amazon, Magalu) usando RPA."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFRGS",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Vendas em 1 Minuto'",
+        "link": "#",
+        "descricao": "Painel em PowerBI que mostra as métricas de venda essenciais, atualizado em tempo real, para donos de loja."
+      }
+    ],
+    "certificacoes": ["Google Analytics Individual Qualification"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["RetailTech", "Martech"]
+  },
+  {
+    "id": 6,
+    "nome": "Fábio Mendes",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=FM",
+    "cargo": "Engenheiro de Automação Industrial",
+    "resumo": "Traduzo manuais de máquinas complexas em interfaces de tablet passo-a-passo para operadores de chão de fábrica.",
+    "localizacao": "São Paulo/SP",
+    "area": "Manufatura",
+    "habilidadesTecnicas": ["Python", "PLC", "SCADA", "React", "SQL"],
+    "softSkills": ["Resolução de Problemas", "Didática", "Segurança em Primeiro Lugar"],
+    "experiencias": [
+      {
+        "empresa": "Indústria Forte",
+        "cargo": "Engenheiro de Processos",
+        "inicio": "2018-01",
+        "fim": "Atual",
+        "descricao": "Criei um app interno de 'Checklist de Qualidade' que digitalizou 100% das inspeções, eliminando formulários de papel."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Mecatrônica",
+        "instituicao": "POLI-USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema 'Operador-Guia'",
+        "link": "#",
+        "descricao": "App em React que exibe instruções visuais animadas para a montagem de peças, reduzindo erros em 60%."
+      }
+    ],
+    "certificacoes": ["Certificação em Lean Manufacturing"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }, { "idioma": "Alemão", "nivel": "Intermediário" }],
+    "areaInteresses": ["Indústria 4.0", "IIoT"]
+  },
+  {
+    "id": 7,
+    "nome": "Gabriela Nunes",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=GN",
+    "cargo": "Especialista em Suporte Simplificado",
+    "resumo": "Transformo FAQs de suporte em chatbots e bases de conhecimento interativas. Menos chamados, mais autoatendimento.",
+    "localizacao": "Recife/PE",
+    "area": "TI",
+    "habilidadesTecnicas": ["Zendesk", "Dialogflow", "Python", "JavaScript", "SQL"],
+    "softSkills": ["Comunicação Clara", "Paciência", "Didática"],
+    "experiencias": [
+      {
+        "empresa": "Porto Digital",
+        "cargo": "Analista de Suporte N2",
+        "inicio": "2020-09",
+        "fim": "Atual",
+        "descricao": "Implementei um chatbot que resolve 35% dos chamados de N1 automaticamente, sem intervenção humana."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFPE",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Base de Conhecimento 'Me Ajuda'",
+        "link": "#",
+        "descricao": "Site de documentação interna com busca inteligente e tutoriais em vídeo, reduzindo chamados repetidos."
+      }
+    ],
+    "certificacoes": ["ITIL Foundation"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["IA Generativa", "Customer Experience"]
+  },
+  {
+    "id": 8,
+    "nome": "Hugo Pereira",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=HP",
+    "cargo": "Consultor de DownSkilling em Marketing",
+    "resumo": "Crio ferramentas 'no-code' para que equipes de marketing possam criar landing pages e automações sem depender de TI.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Webflow", "Make.com (Integromat)", "Airtable", "JavaScript", "Google Tag Manager"],
+    "softSkills": ["Criatividade", "Agilidade", "Visão de Negócio"],
+    "experiencias": [
+      {
+        "empresa": "Agência Voo",
+        "cargo": "Especialista em Martech",
+        "inicio": "2021-01",
+        "fim": "Atual",
+        "descricao": "Construí um 'Gerador de Landing Pages' interno em Webflow que permitiu ao time de criação lançar 10 campanhas por semana (antes era 1)."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Publicidade e Propaganda",
+        "instituicao": "ESPM",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Automação 'Lead-to-CRM'",
+        "link": "#",
+        "descricao": "Fluxo no Make.com que captura leads do Facebook Ads, enriquece com dados e insere no Pipedrive automaticamente."
+      }
+    ],
+    "certificacoes": ["Webflow Expert"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["No-Code", "Growth Hacking"]
+  },
+  {
+    "id": 9,
+    "nome": "Isabela Martins",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=IM",
+    "cargo": "Analista de Dados (Simplificados)",
+    "resumo": "Meu trabalho é fazer o dado complexo parecer simples. Crio dashboards em PowerBI que o C-Level entende em 1 minuto.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Finanças",
+    "habilidadesTecnicas": ["PowerBI", "SQL", "DAX", "Python", "Looker Studio"],
+    "softSkills": ["Storytelling com Dados", "Visão Analítica", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Mineradora X",
+        "cargo": "Analista de BI",
+        "inicio": "2022-03",
+        "fim": "Atual",
+        "descricao": "Substituí um relatório em PDF de 80 páginas por um dashboard interativo de 3 abas, adotado por toda a diretoria."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Estatística",
+        "instituicao": "UFMG",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Financeiro em 1 Minuto'",
+        "link": "#",
+        "descricao": "Painel focado em Fluxo de Caixa e P&L, com linguagem de negócio, não de contador."
+      }
+    ],
+    "certificacoes": ["Microsoft Certified: Power BI Data Analyst"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["DataViz", "Simplificação de Métricas"]
+  },
+  {
+    "id": 10,
+    "nome": "João Almeida",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=JA",
+    "cargo": "Especialista em Automação de E-commerce",
+    "resumo": "Construo robôs (RPA) que cuidam do trabalho chato: cadastro de produtos, atualização de preços e monitoramento de concorrentes.",
+    "localizacao": "Curitiba/PR",
+    "area": "Varejo",
+    "habilidadesTecnicas": ["RPA (UiPath)", "Python (Scrapy)", "SQL", "VTEX", "JavaScript"],
+    "softSkills": ["Visão de Processo", "Foco", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "E-commerce Now",
+        "cargo": "Desenvolvedor de Automação",
+        "inicio": "2020-07",
+        "fim": "Atual",
+        "descricao": "Criei um robô que cadastra 1.000 produtos por dia, com fotos e descrições, um trabalho que antes levava 1 semana para 3 pessoas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "PUC-PR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Robô 'Preço-Certo'",
+        "link": "#",
+        "descricao": "RPA que monitora o preço de 10 concorrentes e sugere ajustes de preço em tempo real, maximizando a margem."
+      }
+    ],
+    "certificacoes": ["UiPath Certified RPA Associate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["RPA", "Web Scraping"]
+  },
+  {
+    "id": 11,
+    "nome": "Larissa Barbosa",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=LB",
+    "cargo": "Especialista em Operações Logísticas",
+    "resumo": "Crio aplicativos móveis para equipes de armazém. Leitura de código de barras, separação e conferência, tudo na palma da mão.",
+    "localizacao": "São Paulo/SP",
+    "area": "Logística",
+    "habilidadesTecnicas": ["React Native", "Firebase", "SQL", "Node.js", "WMS"],
+    "softSkills": ["Empatia com o Usuário", "Observação", "Agilidade"],
+    "experiencias": [
+      {
+        "empresa": "Armazém Digital",
+        "cargo": "Desenvolvedora Mobile",
+        "inicio": "2021-10",
+        "fim": "Atual",
+        "descricao": "Desenvolvi o app 'ConfereFácil', que substituiu 100% das pranchetas de papel, reduzindo erros de separação a quase zero."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "FIAP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'GiraEstoque'",
+        "link": "#",
+        "descricao": "Aplicativo para contagem de inventário cíclico, com leitura de RFID e sincronização offline."
+      }
+    ],
+    "certificacoes": ["Scrum Master"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Supply Chain", "Mobile", "Offline-first"]
+  },
+  {
+    "id": 12,
+    "nome": "Marcos Vinicius",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=MV",
+    "cargo": "Especialista em Folha de Pagamento",
+    "resumo": "Simplifico o processo de folha de pagamento. Crio portais onde o funcionário resolve tudo (férias, ponto, holerite) sozinho.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "RH",
+    "habilidadesTecnicas": ["SAP", "Workday", "Python", "React", "SQL"],
+    "softSkills": ["Confiabilidade", "Atenção aos Detalhes", "Segurança da Informação"],
+    "experiencias": [
+      {
+        "empresa": "RHCorp",
+        "cargo": "Analista de Sistemas RH",
+        "inicio": "2019-01",
+        "fim": "Atual",
+        "descricao": "Liderei a migração do sistema de ponto manual para um app com reconhecimento facial, economizando 40 horas/mês do time de RH."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-RS",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Portal 'MeuRH'",
+        "link": "#",
+        "descricao": "Portal web onde funcionários solicitam férias, ajustam ponto e baixam holerites sem abrir chamados."
+      }
+    ],
+    "certificacoes": ["Especialista em eSocial"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["People Analytics", "LGPD"]
+  },
+  {
+    "id": 13,
+    "nome": "Natália Gomes",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=NG",
+    "cargo": "Consultora de Processos em Saúde",
+    "resumo": "Meu foco é o tempo do médico. Crio sistemas de prontuário eletrônico com ditado por voz e templates inteligentes.",
+    "localizacao": "São Paulo/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["MV", "Tasy", "Python", "SQL", "JavaScript", "IA (NLP)"],
+    "softSkills": ["Escuta Ativa", "Visão de Processo", "Foco no Usuário"],
+    "experiencias": [
+      {
+        "empresa": "Clínica Bem-Estar",
+        "cargo": "Consultora de Sistemas",
+        "inicio": "2020-05",
+        "fim": "Atual",
+        "descricao": "Implementei um sistema de NLP que transcreve o áudio do médico para o prontuário, economizando 1h por dia por profissional."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Biomédica",
+        "instituicao": "Mackenzie",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Template 'Consulta Rápida'",
+        "link": "#",
+        "descricao": "Sistema de templates em 1 clique para preenchimento de prontuários em especialidades (ex: Pediatria, Cardio)."
+      }
+    ],
+    "certificacoes": ["Certificação em Sistemas de Prontuário Eletrônico"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["IA em Saúde", "Telemedicina"]
+  },
+  {
+    "id": 14,
+    "nome": "Otávio Santos",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=OS",
+    "cargo": "Engenheiro de Qualidade (Q.A.)",
+    "resumo": "Simplifico o controle de qualidade na indústria. Crio apps de inspeção com checklist visual e captura de fotos.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Manufatura",
+    "habilidadesTecnicas": ["PowerApps", "SQL", "PowerBI", "Python", "React Native"],
+    "softSkills": ["Atenção aos Detalhes", "Metódico", "Qualidade"],
+    "experiencias": [
+      {
+        "empresa": "Metalúrgica RJ",
+        "cargo": "Inspetor de Qualidade Sênior",
+        "inicio": "2017-06",
+        "fim": "Atual",
+        "descricao": "Desenvolvi em PowerApps um sistema de 'Apontamento de Não-Conformidade' que reduziu o tempo de registro de 10 min para 30 seg."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Produção",
+        "instituicao": "UFRJ",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Qualidade em Tempo Real'",
+        "link": "#",
+        "descricao": "Painel que mostra em tempo real as principais falhas na linha de produção, permitindo ação imediata."
+      }
+    ],
+    "certificacoes": ["ISO 9001", "Six Sigma Black Belt"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Controle de Qualidade", "Power Platform"]
+  },
+  {
+    "id": 15,
+    "nome": "Paula Ferreira",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=PF",
+    "cargo": "Especialista em Automação de Marketing",
+    "resumo": "Construo 'réguas de relacionamento' que funcionam sozinhas. Menos envio manual de e-mail, mais nutrição de leads.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["HubSpot", "Salesforce Marketing Cloud", "JavaScript", "SQL", "Google Analytics"],
+    "softSkills": ["Pensamento Estratégico", "Criatividade", "Análise de Dados"],
+    "experiencias": [
+      {
+        "empresa": "Startup Cresce",
+        "cargo": "Analista de Marketing Ops",
+        "inicio": "2021-11",
+        "fim": "Atual",
+        "descricao": "Desenhei e implementei 5 fluxos de nutrição automatizados que aumentaram a conversão de MQL para SQL em 20%."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Marketing",
+        "instituicao": "FGV",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Calculadora de ROI Interativa",
+        "link": "#",
+        "descricao": "Ferramenta web (ex: Typeform + Web) que qualifica leads, calcula o ROI e agenda demonstração, tudo automático."
+      }
+    ],
+    "certificacoes": ["HubSpot Inbound Marketing Certified"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Marketing Ops", "Automação"]
+  },
+  {
+    "id": 16,
+    "nome": "Rafael Oliveira",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=RO",
+    "cargo": "Especialista em Logística Reversa",
+    "resumo": "Simplifico o processo de devolução para e-commerces. Crio portais de autoatendimento para o cliente final.",
+    "localizacao": "Curitiba/PR",
+    "area": "Logística",
+    "habilidadesTecnicas": ["React", "Node.js", "SQL", "API Correios", "Firebase"],
+    "softSkills": ["Visão de Processo", "Foco no Cliente", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "Log Reverso",
+        "cargo": "Desenvolvedor Full-Stack",
+        "inicio": "2020-02",
+        "fim": "Atual",
+        "descricao": "Criei o 'Portal de Devolução' que automatiza a geração de etiquetas de logística reversa, reduzindo 80% do trabalho manual do SAC."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFPR",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Motivos de Devolução'",
+        "link": "#",
+        "descricao": "Painel que analisa em tempo real os motivos de devolução, ajudando o varejista a identificar problemas no produto."
+      }
+    ],
+    "certificacoes": ["AWS Certified Developer"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Supply Chain", "E-commerce"]
+  },
+  {
+    "id": 17,
+    "nome": "Sofia Bernardes",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=SB",
+    "cargo": "Analista de Recrutamento (R&S)",
+    "resumo": "Uso tecnologia para simplificar a triagem de currículos. Crio formulários inteligentes e automações que filtram candidatos.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "RH",
+    "habilidadesTecnicas": ["Gupy", "Kenoby", "Python", "Airtable", "Make.com"],
+    "softSkills": ["Comunicação", "Organização", "Foco em Pessoas"],
+    "experiencias": [
+      {
+        "empresa": "Talent Hub",
+        "cargo": "Tech Recruiter",
+        "inicio": "2021-01",
+        "fim": "Atual",
+        "descricao": "Automatizei o processo de triagem inicial com um formulário no Typeform que filtra 90% dos candidatos fora do perfil."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia",
+        "instituicao": "UFMG",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pipeline de Candidatos Visual",
+        "link": "#",
+        "descricao": "Sistema em Airtable (no-code) que mostra o status de todos os candidatos em um funil visual para gestores."
+      }
+    ],
+    "certificacoes": ["Certificação em Recrutamento e Seleção"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["HR Tech", "Automação No-Code"]
+  }
+]
