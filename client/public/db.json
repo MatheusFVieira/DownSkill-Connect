@@ -627,5 +627,1601 @@
     "certificacoes": ["Certificação em Recrutamento e Seleção"],
     "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
     "areaInteresses": ["HR Tech", "Automação No-Code"]
+  },
+  {
+    "id": 18,
+    "nome": "João Marcos",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=JM",
+    "cargo": "Analista de Software (R&S)",
+    "resumo": "Uso tecnologia para simplificar a triagem de currículos. Crio formulários inteligentes e automações que filtram candidatos.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "TI",
+    "habilidadesTecnicas": ["Zendesk API", "Dialogflow", "Python", "JavaScript", "AWS"],
+    "softSkills": ["Comunicação", "Organização", "Foco em Pessoas"],
+    "experiencias": [
+      {
+        "empresa": "Google",
+        "cargo": "Tech Leeder",
+        "inicio": "2020-02",
+        "fim": "Atual",
+        "descricao": "Lederar equipe de desenvolvimento de Software"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciências da Computação",
+        "instituicao": "UFMG",
+        "ano": 2005
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pipeline de Candidatos Visual",
+        "link": "#",
+        "descricao": "Sistema em Airtable (no-code) que mostra o status de todos os candidatos em um funil visual para gestores."
+      }
+    ],
+    "certificacoes": ["Certificação em Recrutamento e Seleção"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["HR Tech", "Automação No-Code"]
+  },
+  {
+    "id": 19,
+    "nome": "Tomás Andrade",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=TA",
+    "cargo": "Especialista em Atendimento ao Cliente",
+    "resumo": "Transformo FAQs complexos em URA inteligentes e chatbots que resolvem problemas de verdade, antes de chegar no atendente.",
+    "localizacao": "Florianópolis/SC",
+    "area": "TI",
+    "habilidadesTecnicas": ["Zendesk API", "Dialogflow", "Python", "JavaScript", "Salesforce"],
+    "softSkills": ["Comunicação Clara", "Paciência", "Escuta Ativa"],
+    "experiencias": [
+      {
+        "empresa": "HelpTech",
+        "cargo": "Analista de Suporte N3",
+        "inicio": "2020-01",
+        "fim": "Atual",
+        "descricao": "Desenvolvi um 'Guia de Resolução' interno que reduziu o tempo de treinamento de novos analistas de N1 de 2 semanas para 3 dias."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "URA Cognitiva",
+        "link": "#",
+        "descricao": "Sistema de URA que usa IA para entender a intenção do cliente e resolver 40% das chamadas sem transferir para um humano."
+      }
+    ],
+    "certificacoes": ["Salesforce Certified Administrator"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["IA Conversacional", "Customer Experience"]
+  },
+  {
+    "id": 20,
+    "nome": "Ulisses Ferraz",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=UF",
+    "cargo": "Consultor de Operações de Varejo",
+    "resumo": "Meu foco é o caixa da loja. Crio interfaces de PDV (Ponto de Venda) tão simples que o treinamento leva 10 minutos.",
+    "localizacao": "Salvador/BA",
+    "area": "Varejo",
+    "habilidadesTecnicas": ["React", "Node.js", "SQL", "LINX", "PDV"],
+    "softSkills": ["Observação", "Empatia", "Design de Interface"],
+    "experiencias": [
+      {
+        "empresa": "Varejo Bahia",
+        "cargo": "Analista de Sistemas de Loja",
+        "inicio": "2019-06",
+        "fim": "Atual",
+        "descricao": "Redesenhei a tela de fechamento de caixa, reduzindo erros de contagem em 70% e o tempo do processo em 20 minutos por dia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "UFBA",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'Frente de Caixa Móvel'",
+        "link": "#",
+        "descricao": "Aplicativo em tablet que permite ao vendedor registrar a venda e receber o pagamento em qualquer lugar da loja."
+      }
+    ],
+    "certificacoes": ["Especialista em Sistemas de PDV"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["RetailTech", "Mobilidade"]
+  },
+  {
+    "id": 21,
+    "nome": "Vitória Bastos",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=VB",
+    "cargo": "Especialista em Manufatura Aditiva",
+    "resumo": "Simplifico a prototipagem. Crio processos para que engenheiros possam usar impressão 3D sem precisar de um especialista.",
+    "localizacao": "Manaus/AM",
+    "area": "Manufatura",
+    "habilidadesTecnicas": ["Impressão 3D", "SolidWorks", "AutoCAD", "Python", "RPA"],
+    "softSkills": ["Visão Espacial", "Didática", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "Polo Industrial de Manaus",
+        "cargo": "Engenheira de Produto",
+        "inicio": "2020-03",
+        "fim": "Atual",
+        "descricao": "Criei um software interno que analisa um modelo 3D e sugere automaticamente as melhores configurações de impressão."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Materiais",
+        "instituicao": "UEA",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Biblioteca de Peças 3D",
+        "link": "#",
+        "descricao": "Sistema web onde a equipe de manutenção pode baixar e imprimir peças de reposição simples em 3D, em vez de comprá-las."
+      }
+    ],
+    "certificacoes": ["Certificação em Manufatura Aditiva"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Indústria 4.0", "Prototipagem Rápida"]
+  },
+  {
+    "id": 22,
+    "nome": "Wagner Pinto",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=WP",
+    "cargo": "Designer de Interface Jurídica",
+    "resumo": "Trabalho para advogados. Transformo petições complexas e contratos em documentos visuais e dashboards de processos.",
+    "localizacao": "Brasília/DF",
+    "area": "Jurídico",
+    "habilidadesTecnicas": ["Legal Design", "Adobe XD", "Figma", "PowerBI", "JavaScript"],
+    "softSkills": ["Pensamento Crítico", "Comunicação Visual", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Advocacia Digital",
+        "cargo": "Legal Designer",
+        "inicio": "2021-09",
+        "fim": "Atual",
+        "descricao": "Redesenhei contratos sociais de 30 páginas para um formato visual de 5 páginas, 100% válido e compreendido pelo cliente."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Direito",
+        "instituicao": "UnB",
+        "ano": 2018
+      },
+      {
+        "curso": "Pós em Design Gráfico",
+        "instituicao": "EBAC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Meus Processos'",
+        "link": "#",
+        "descricao": "Painel para clientes acompanharem o status de seus processos judiciais em tempo real, sem 'advoguês'."
+      }
+    ],
+    "certificacoes": ["Certificação em Legal Design"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["LawTech", "Visual Law"]
+  },
+  {
+    "id": 23,
+    "nome": "Xavier Andrade",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=XA",
+    "cargo": "Especialista em Gestão de Frotas",
+    "resumo": "Simplifico o controle de motoristas e veículos. Crio apps de checklist de saída e dashboards de manutenção preventiva.",
+    "localizacao": "Goiânia/GO",
+    "area": "Logística",
+    "habilidadesTecnicas": ["React Native", "Firebase", "SQL", "Google Maps API", "PowerBI"],
+    "softSkills": ["Visão de Processo", "Organização", "Comunicação Direta"],
+    "experiencias": [
+      {
+        "empresa": "Trans Rápido",
+        "cargo": "Analista de Logística",
+        "inicio": "2019-02",
+        "fim": "Atual",
+        "descricao": "Criei um app 'Checklist Fácil' que o motorista usa antes de sair, registrando fotos e status do veículo, eliminando formulários."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Logística",
+        "instituicao": "UFG",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Painel 'Manutenção em Dia'",
+        "link": "#",
+        "descricao": "Dashboard que avisa automaticamente os gestores sobre a necessidade de troca de óleo e pneus, baseado no KM rodado."
+      }
+    ],
+    "certificacoes": ["Especialista em Gestão de Frotas"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["LogTech", "Telemetria"]
+  },
+  {
+    "id": 24,
+    "nome": "Yasmin Rocha",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=YR",
+    "cargo": "Consultora de Treinamento Simplificado",
+    "resumo": "Crio 'pílulas de conhecimento' e guias rápidos. Substituo manuais de 100 páginas por vídeos de 2 minutos e checklists.",
+    "localizacao": "São Paulo/SP",
+    "area": "RH",
+    "habilidadesTecnicas": ["Camtasia", "Adobe Premiere", "Articulate 360", "LMS", "Notion"],
+    "softSkills": ["Didática", "Criatividade", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "EducaCorp",
+        "cargo": "Designer Instrucional",
+        "inicio": "2020-07",
+        "fim": "Atual",
+        "descricao": "Transformei um treinamento de Compliance de 8 horas em uma trilha gamificada de 1 hora, aumentando a adesão em 90%."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pedagogia",
+        "instituicao": "PUC-SP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Base de Conhecimento 'Como Faz?'",
+        "link": "#",
+        "descricao": "Wiki interna (Notion) com GIFs e vídeos curtos ensinando processos internos (ex: pedir férias, usar o CRM)."
+      }
+    ],
+    "certificacoes": ["Especialista em Microlearning"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["EdTech", "Gamificação"]
+  },
+  {
+    "id": 25,
+    "nome": "Zilda Matos",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=ZM",
+    "cargo": "Arquiteta de Soluções No-Code",
+    "resumo": "Construo sistemas internos complexos (CRMs, ERPs) sem código, usando ferramentas como Bubble e Airtable. Rápido e fácil de manter.",
+    "localizacao": "Recife/PE",
+    "area": "TI",
+    "habilidadesTecnicas": ["Bubble.io", "Airtable", "Make.com", "Webflow", "JavaScript (básico)"],
+    "softSkills": ["Visão de Processo", "Agilidade", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "SemCódigo Já",
+        "cargo": "Desenvolvedora No-Code",
+        "inicio": "2021-05",
+        "fim": "Atual",
+        "descricao": "Criei um CRM completo para uma imobiliária em 3 semanas usando Bubble, um projeto que levaria 6 meses em código tradicional."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFPE",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'Gestão de Eventos'",
+        "link": "#",
+        "descricao": "Sistema No-Code para gestão de inscrições, pagamentos e certificados de eventos corporativos."
+      }
+    ],
+    "certificacoes": ["Bubble.io Professional Certificate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["No-Code", "Low-Code", "Startups"]
+  },
+  {
+    "id": 26,
+    "nome": "Arthur Bernardes",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=AB",
+    "cargo": "Especialista em Conciliação Financeira",
+    "resumo": "Automatizo a conciliação bancária e de cartões. Menos 'bater planilha', mais análise de desvios.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Finanças",
+    "habilidadesTecnicas": ["Python", "SQL", "RPA (Automation Anywhere)", "Excel VBA", "PowerBI"],
+    "softSkills": ["Pensamento Analítico", "Foco no Detalhe", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "VarejoMinas",
+        "cargo": "Analista Financeiro Sênior",
+        "inicio": "2018-11",
+        "fim": "Atual",
+        "descricao": "Criei um robô que faz a conciliação de 500 lojas (cartões) em 2 horas, um processo que levava 5 dias para duas pessoas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciências Contábeis",
+        "instituicao": "UFMG",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Desvios de Caixa'",
+        "link": "#",
+        "descricao": "Painel que aponta automaticamente divergências entre o sistema de vendas (PDV) e os recebíveis da adquirente."
+      }
+    ],
+    "certificacoes": ["Especialista em Automação Financeira"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Fintech", "RPA"]
+  },
+  {
+    "id": 27,
+    "nome": "Beatriz Neves",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=BN",
+    "cargo": "Designer de Interface para Saúde (Pacientes)",
+    "resumo": "Crio aplicativos de saúde para pacientes, focados em adesão ao tratamento e agendamento. Simples, acessível e amigável.",
+    "localizacao": "São Paulo/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Figma", "React Native", "WCAG (Acessibilidade)", "UX Research", "JavaScript"],
+    "softSkills": ["Empatia", "Comunicação Clara", "Design Inclusivo"],
+    "experiencias": [
+      {
+        "empresa": "SaúdeDigital",
+        "cargo": "UX/UI Designer",
+        "inicio": "2021-04",
+        "fim": "Atual",
+        "descricao": "Liderei o design do app 'Minha Jornada', que guia pacientes oncológicos pelo tratamento, com lembretes de medicação e consultas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Belas Artes SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'Lembrete de Remédio'",
+        "link": "#",
+        "descricao": "App com foco em idosos, usando fontes grandes, comandos de voz e interface de alto contraste para facilitar o uso."
+      }
+    ],
+    "certificacoes": ["Certificação em Acessibilidade Web (WCAG)"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["HealthTech", "Acessibilidade", "Design para Idosos"]
+  },
+  {
+    "id": 28,
+    "nome": "Caio Martins",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=CM",
+    "cargo": "Especialista em Gestão de Mídia Paga",
+    "resumo": "Simplifico a gestão de campanhas. Crio dashboards que mostram o ROI real, sem métricas de vaidade, para o dono do negócio.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Google Ads", "Facebook Ads", "Google Data Studio (Looker)", "SQL", "JavaScript"],
+    "softSkills": ["Visão Analítica", "Foco em Resultado", "Comunicação Direta"],
+    "experiencias": [
+      {
+        "empresa": "Agência Foco",
+        "cargo": "Gestor de Tráfego Sênior",
+        "inicio": "2020-01",
+        "fim": "Atual",
+        "descricao": "Desenvolvi um dashboard no Looker Studio que cruza dados do Ads com o CRM (vendas), mostrando o Custo por Venda real."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Marketing",
+        "instituicao": "FGV-RJ",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Marketing em 1 Tela'",
+        "link": "#",
+        "descricao": "Painel para PMEs que mostra quanto foi gasto, quanto foi vendido e qual o lucro, em 3 caixas grandes. Simples assim."
+      }
+    ],
+    "certificacoes": ["Google Ads Certified Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Martech", "DataViz"]
+  },
+  {
+    "id": 29,
+    "nome": "Débora Azevedo",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=DA",
+    "cargo": "Especialista em Operações de Campo",
+    "resumo": "Equipo técnicos de campo com apps que funcionam offline. Ordens de serviço, checklists e coleta de assinatura, tudo digital.",
+    "localizacao": "Curitiba/PR",
+    "area": "Manufatura",
+    "habilidadesTecnicas": ["React Native", "SQLite", "Firebase", "Node.js", "GPS API"],
+    "softSkills": ["Resolução de Problemas", "Visão de Processo", "Foco no Usuário"],
+    "experiencias": [
+      {
+        "empresa": "Serviços Técnicos PR",
+        "cargo": "Desenvolvedora Mobile",
+        "inicio": "2021-03",
+        "fim": "Atual",
+        "descricao": "Criei o app 'OS na Mão', que digitalizou 100% das ordens de serviço, economizando 2 horas/dia por técnico em digitação."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "UTFPR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'Checklist de Instalação'",
+        "link": "#",
+        "descricao": "App que guia o técnico (com fotos e instruções) no processo de instalação, garantindo o padrão de qualidade."
+      }
+    ],
+    "certificacoes": ["Scrum Developer"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Field Service", "Offline-first Apps"]
+  },
+  {
+    "id": 30,
+    "nome": "Elisa Drummond",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=ED",
+    "cargo": "Consultora de Gestão de Estoque",
+    "resumo": "Simplifico o inventário. Implemento sistemas de código de barras e coletores de dados para que o estoque seja contado em horas, não dias.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Varejo",
+    "habilidadesTecnicas": ["WMS", "RFID", "SQL", "PowerBI", "Python"],
+    "softSkills": ["Organização", "Metódica", "Visão de Processo"],
+    "experiencias": [
+      {
+        "empresa": "VarejoSul",
+        "cargo": "Analista de Logística",
+        "inicio": "2018-09",
+        "fim": "Atual",
+        "descricao": "Liderei a implantação de coletores de dados para inventário rotativo, aumentando a acuracidade do estoque de 85% para 99.8%."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Produção",
+        "instituicao": "UFRGS",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Ruptura Zero'",
+        "link": "#",
+        "descricao": "Painel que alerta sobre produtos com baixo estoque e risco de ruptura, baseado na média de vendas (em vez de estoque mínimo)."
+      }
+    ],
+    "certificacoes": ["Especialista em WMS"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Supply Chain", "Varejo"]
+  },
+  {
+    "id": 31,
+    "nome": "Felipe Arruda",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=FA",
+    "cargo": "Especialista em Gestão de Contratos",
+    "resumo": "Digitalizo e automatizo o ciclo de vida de contratos. Da criação (templates) até a assinatura digital e alertas de vencimento.",
+    "localizacao": "São Paulo/SP",
+    "area": "Jurídico",
+    "habilidadesTecnicas": ["Clicksign", "Docusign", "RPA", "Python", "SQL", "No-Code"],
+    "softSkills": ["Atenção aos Detalhes", "Organização", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "Contrato Ágil",
+        "cargo": "Consultor de CLM (Contract Lifecycle Management)",
+        "inicio": "2020-05",
+        "fim": "Atual",
+        "descricao": "Implementei um sistema de CLM que reduziu o tempo de aprovação de contratos de 15 dias para 48 horas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Direito",
+        "instituicao": "Mackenzie",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Robô 'Alerta de Vencimento'",
+        "link": "#",
+        "descricao": "RPA que lê uma planilha de contratos e envia alertas por e-mail para os gestores 60, 30 e 10 dias antes do vencimento."
+      }
+    ],
+    "certificacoes": ["Certificação em CLM"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["LawTech", "Automação"]
+  },
+  {
+    "id": 32,
+    "nome": "Giovanna Telles",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=GT",
+    "cargo": "Analista de Benefícios (RH)",
+    "resumo": "Crio 'Markeplaces de Benefícios'. Um portal único onde o funcionário escolhe o que quer (VR, VA, Gympass) de forma simples.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "RH",
+    "habilidadesTecnicas": ["React", "Node.js", "SQL", "APIs (Flash, Caju)", "Figma"],
+    "softSkills": ["Empatia", "Comunicação", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "RH Digital",
+        "cargo": "Desenvolvedora Front-End",
+        "inicio": "2021-08",
+        "fim": "Atual",
+        "descricao": "Desenvolvi a interface do portal de benefícios flexíveis, usada hoje por 50 mil funcionários de empresas clientes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design de Interface",
+        "instituicao": "Infnet",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Calculadora 'Meu Salário'",
+        "link": "#",
+        "descricao": "Ferramenta web simples que mostra ao funcionário o salário líquido após todos os descontos de benefícios e impostos."
+      }
+    ],
+    "certificacoes": ["UX/UI Design"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["HR Tech", "Benefícios Flexíveis"]
+  },
+  {
+    "id": 33,
+    "nome": "Heitor Vasconcelos",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=HV",
+    "cargo": "Especialista em Roteirização (Logística)",
+    "resumo": "Simplifico a logística de entrega. Uso algoritmos para criar as rotas mais eficientes para os motoristas, economizando tempo e diesel.",
+    "localizacao": "São Paulo/SP",
+    "area": "Logística",
+    "habilidadesTecnicas": ["Python", "Google OR-Tools", "Google Maps API", "SQL", "PowerBI"],
+    "softSkills": ["Pensamento Analítico", "Resolução de Problemas", "Visão de Processo"],
+    "experiencias": [
+      {
+        "empresa": "Entrega Rápida",
+        "cargo": "Cientista de Dados Logísticos",
+        "inicio": "2020-01",
+        "fim": "Atual",
+        "descricao": "Implementei um sistema de roteirização automática que reduziu a quilometragem total da frota em 18%."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "ITA",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'Minha Rota'",
+        "link": "#",
+        "descricao": "App simples para motoristas que recebe a rota otimizada e permite dar baixa nas entregas (com foto e assinatura)."
+      }
+    ],
+    "certificacoes": ["Especialista em Otimização de Rotas"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["LogTech", "Pesquisa Operacional", "IA"]
+  },
+  {
+    "id": 34,
+    "nome": "Ícaro Matos",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=IM",
+    "cargo": "Consultor de Finanças para PMEs",
+    "resumo": "Ajudo donos de pequenos negócios a entenderem suas finanças. Crio planilhas e dashboards 'à prova de leigos'.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Finanças",
+    "habilidadesTecnicas": ["Google Sheets", "PowerBI", "Excel", "Conta Azul", "Python (básico)"],
+    "softSkills": ["Didática", "Paciência", "Comunicação Simples"],
+    "experiencias": [
+      {
+        "empresa": "Meu Negócio Azul",
+        "cargo": "Consultor Financeiro",
+        "inicio": "2019-01",
+        "fim": "Atual",
+        "descricao": "Criei um template de 'Fluxo de Caixa Diário' no Google Sheets que é usado por mais de 200 clientes PME."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "PUC-MG",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Saúde da Empresa'",
+        "link": "#",
+        "descricao": "Painel de 1 página que mostra 3 métricas: 'Quanto vendi?', 'Quanto gastei?', 'Sobrou dinheiro?'."
+      }
+    ],
+    "certificacoes": ["Especialista em Gestão Financeira PME"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Fintechs", "Educação Financeira"]
+  },
+  {
+    "id": 35,
+    "nome": "Juliana Paiva",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=JP",
+    "cargo": "Especialista em Segurança do Trabalho",
+    "resumo": "Digitalizo a CIPA e os relatórios de segurança. Crio apps para registro de incidentes e checklists de EPIs.",
+    "localizacao": "Curitiba/PR",
+    "area": "Manufatura",
+    "habilidadesTecnicas": ["PowerApps", "SharePoint", "PowerBI", "React Native", "SQL"],
+    "softSkills": ["Atenção aos Detalhes", "Comunicação Clara", "Prevenção"],
+    "experiencias": [
+      {
+        "empresa": "Indústria Segura",
+        "cargo": "Técnica de Segurança do Trabalho Sênior",
+        "inicio": "2017-06",
+        "fim": "Atual",
+        "descricao": "Desenvolvi um app 'Relato de Risco' onde qualquer funcionário pode tirar uma foto de um risco e enviar anonimamente."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Produção",
+        "instituicao": "UTFPR",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Mapa de Calor de Riscos'",
+        "link": "#",
+        "descricao": "Painel que mostra em um mapa da fábrica onde os incidentes e 'quase-acidentes' estão acontecendo com mais frequência."
+      }
+    ],
+    "certificacoes": ["NR-10", "NR-12", "ISO 45001"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Segurança do Trabalho", "Indústria 4.0"]
+  },
+  {
+    "id": 36,
+    "nome": "Kleber Santos",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=KS",
+    "cargo": "Especialista em Telemedicina",
+    "resumo": "Simplifico a jornada digital do paciente. Crio interfaces de teleconsulta fáceis de usar, mesmo para quem não entende de tecnologia.",
+    "localizacao": "Recife/PE",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["React", "WebRTC", "Node.js", "Figma", "Acessibilidade"],
+    "softSkills": ["Empatia", "Paciência", "Comunicação Clara"],
+    "experiencias": [
+      {
+        "empresa": "Doutor Digital",
+        "cargo": "Desenvolvedor Front-End Sênior",
+        "inicio": "2020-09",
+        "fim": "Atual",
+        "descricao": "Projetei a sala de espera virtual e a interface de consulta, com botões grandes e instruções claras, resultando em 90% de satisfação."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Cesar School",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'Minha Consulta'",
+        "link": "#",
+        "descricao": "App que envia lembretes por SMS e WhatsApp e permite ao paciente entrar na consulta com apenas um clique, sem login."
+      }
+    ],
+    "certificacoes": ["Especialista em UX para Saúde"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["HealthTech", "Telemedicina", "Acessibilidade"]
+  },
+  {
+    "id": 37,
+    "nome": "Laura Mendes",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=LM",
+    "cargo": "Especialista em E-commerce (PME)",
+    "resumo": "Ajudo pequenos lojistas a vender online. Configuro lojas na Nuvemshop ou Shopify e ensino a gerenciar o básico.",
+    "localizacao": "Salvador/BA",
+    "area": "Varejo",
+    "habilidadesTecnicas": ["Shopify", "Nuvemshop", "Google Analytics", "Facebook Ads (Básico)", "Canva"],
+    "softSkills": ["Didática", "Paciência", "Visão de Negócio"],
+    "experiencias": [
+      {
+        "empresa": "Loja Online Fácil",
+        "cargo": "Consultora de E-commerce",
+        "inicio": "2021-01",
+        "fim": "Atual",
+        "descricao": "Já ajudei mais de 50 PMEs a lançarem suas lojas virtuais, com um treinamento simplificado de 3 horas para gestão."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Publicidade e Propaganda",
+        "instituicao": "UFBA",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Guia 'Meu Primeiro E-commerce'",
+        "link": "#",
+        "descricao": "Checklist simples em Notion ensinando o passo-a-passo para um leigo cadastrar produtos, configurar frete e fazer a primeira venda."
+      }
+    ],
+    "certificacoes": ["Shopify Partner"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["E-commerce", "PMEs", "Marketing Digital"]
+  },
+  {
+    "id": 38,
+    "nome": "Murilo Guedes",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=MG",
+    "cargo": "Especialista em Automação de E-mail Mkt",
+    "resumo": "Crio automações de e-mail marketing (ex: carrinho abandonado) que vendem sozinhas, sem que a equipe precise enviar nada manual.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["ActiveCampaign", "RD Station", "JavaScript", "SQL", "Google Analytics"],
+    "softSkills": ["Pensamento Estratégico", "Análise de Dados", "Copywriting"],
+    "experiencias": [
+      {
+        "empresa": "Marketing Ágil",
+        "cargo": "Especialista em CRM",
+        "inicio": "2020-06",
+        "fim": "Atual",
+        "descricao": "Implementei um fluxo de 'carrinho abandonado' que recuperou R$ 1.5M em vendas no último ano para um cliente de varejo."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Fluxo 'Boas-Vindas'",
+        "link": "#",
+        "descricao": "Régua de 5 e-mails para novos leads, que educa e qualifica o lead automaticamente antes de passar para vendas."
+      }
+    ],
+    "certificacoes": ["ActiveCampaign Certified"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Martech", "Automação de Marketing", "CRM"]
+  },
+  {
+    "id": 39,
+    "nome": "Nicole Farias",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=NF",
+    "cargo": "Especialista em Rede de TI Simplificada",
+    "resumo": "Simplifico a gestão de redes para pequenas empresas. Configuro redes 'mesh' e firewalls que o próprio dono pode monitorar.",
+    "localizacao": "Goiânia/GO",
+    "area": "TI",
+    "habilidadesTecnicas": ["Ubiquiti", "Mikrotik", "Firewall", "Redes Mesh", "VPN"],
+    "softSkills": ["Comunicação Clara", "Segurança", "Didática"],
+    "experiencias": [
+      {
+        "empresa": "Rede Segura PME",
+        "cargo": "Analista de Redes",
+        "inicio": "2019-01",
+        "fim": "Atual",
+        "descricao": "Desenvolvi um 'Guia Rápido' de 1 página que ensina donos de escritório a reiniciar equipamentos na ordem certa, evitando 60% dos chamados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "UFG",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Minha Rede'",
+        "link": "#",
+        "descricao": "Painel web simples que mostra ao dono da PME se a internet caiu, quais dispositivos estão conectados e se há ameaças."
+      }
+    ],
+    "certificacoes": ["Ubiquiti Certified Broadband Wireless Admin"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Redes", "Segurança da Informação", "PMEs"]
+  },
+  {
+    "id": 40,
+    "nome": "Olívia Pereira",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=OP",
+    "cargo": "Especialista em Compras (Procurement)",
+    "resumo": "Automatizo o processo de cotação e compras. Crio portais onde fornecedores enviam propostas e o sistema compara sozinho.",
+    "localizacao": "São Paulo/SP",
+    "area": "Finanças",
+    "habilidadesTecnicas": ["SAP Ariba", "Coupa", "RPA", "SQL", "Python"],
+    "softSkills": ["Negociação", "Visão de Processo", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Indústria ABC",
+        "cargo": "Compradora Sênior",
+        "inicio": "2018-02",
+        "fim": "Atual",
+        "descricao": "Liderei a implantação de um portal de e-Procurement que reduziu o tempo de cotação de 5 dias para 1 dia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Produção",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Robô 'Ordem de Compra'",
+        "link": "#",
+        "descricao": "RPA que lê e-mails de solicitação de compra, abre o pedido no SAP e envia para aprovação do gestor automaticamente."
+      }
+    ],
+    "certificacoes": ["Especialista em Strategic Sourcing"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Procurement", "Supply Chain", "RPA"]
+  },
+  {
+    "id": 41,
+    "nome": "Pedro Drummond",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=PD",
+    "cargo": "Especialista em Canteiro de Obras",
+    "resumo": "Levo tecnologia para a construção. Crio apps de 'Diário de Obra' e controle de materiais, substituindo pranchetas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Construção",
+    "habilidadesTecnicas": ["PowerApps", "React Native", "SQL", "PowerBI", "AutoCAD"],
+    "softSkills": ["Comunicação Direta", "Resolução de Problemas", "Visão Prática"],
+    "experiencias": [
+      {
+        "empresa": "Construtora Forte",
+        "cargo": "Engenheiro Civil de Planejamento",
+        "inicio": "2019-01",
+        "fim": "Atual",
+        "descricao": "Desenvolvi um app 'Apontamento de Horas' que os mestres de obra usam para lançar a produção diária, 100% digital."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Civil",
+        "instituicao": "UFMG",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Avanço da Obra'",
+        "link": "#",
+        "descricao": "Painel que compara o 'Planejado vs. Realizado' da obra, atualizado diariamente pelos dados do app de apontamento."
+      }
+    ],
+    "certificacoes": ["Especialista em Lean Construction"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Contech", "BIM", "Gestão de Obras"]
+  },
+  {
+    "id": 42,
+    "nome": "Quintino Morais",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=QM",
+    "cargo": "Especialista em Frota Leve (Logística)",
+    "resumo": "Simplifico a gestão de frotas de carros e VUCs. Crio dashboards de multas, manutenção e controle de combustível.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Logística",
+    "habilidadesTecnicas": ["PowerBI", "Excel", "SQL", "Google Maps API", "RPA"],
+    "softSkills": ["Organização", "Atenção aos Detalhes", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "Frota Fácil",
+        "cargo": "Gestor de Frotas",
+        "inicio": "2018-05",
+        "fim": "Atual",
+        "descricao": "Criei um robô que baixa automaticamente as multas dos portais (Detran, DNER) e as lança no sistema de gestão."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Logística",
+        "instituicao": "Estácio",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Controle de Combustível'",
+        "link": "#",
+        "descricao": "Painel que cruza dados das bombas de combustível com o KM rodado, apontando desvios de consumo por motorista."
+      }
+    ],
+    "certificacoes": ["Gestão de Frotas e Transportes"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+    "areaInteresses": ["LogTech", "Telemetria"]
+  },
+  {
+    "id": 43,
+    "nome": "Raquel Seixas",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=RS",
+    "cargo": "Especialista em Recrutamento (No-Code)",
+    "resumo": "Construo 'Máquinas de Contratação' com Airtable e Make.com. Da página de vagas ao envio de feedbacks, tudo automático.",
+    "localizacao": "São Paulo/SP",
+    "area": "RH",
+    "habilidadesTecnicas": ["Airtable", "Make.com", "Webflow", "Typeform", "Gupy"],
+    "softSkills": ["Visão de Processo", "Organização", "Agilidade"],
+    "experiencias": [
+      {
+        "empresa": "RH Ágil",
+        "cargo": "Analista de People Ops",
+        "inicio": "2021-11",
+        "fim": "Atual",
+        "descricao": "Automatizei 100% do fluxo de R&S: candidato se inscreve no Webflow, cai no Airtable, e o Make.com agenda entrevistas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "FGV-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Portal 'Trabalhe Conosco' (No-Code)",
+        "link": "#",
+        "descricao": "Página de vagas dinâmica que o próprio RH atualiza via Airtable, sem precisar de um desenvolvedor."
+      }
+    ],
+    "certificacoes": ["Especialista em Automação No-Code"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["HR Tech", "No-Code", "People Analytics"]
+  },
+  {
+    "id": 44,
+    "nome": "Silvio Tamer",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=ST",
+    "cargo": "Especialista em Relatórios de Vendas",
+    "resumo": "Simplifico o CRM. Crio relatórios em PowerBI que mostram o funil de vendas de forma clara para o gestor comercial.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["PowerBI", "Salesforce", "Pipedrive", "SQL", "DAX"],
+    "softSkills": ["Visão Analítica", "Comunicação", "Foco em Resultado"],
+    "experiencias": [
+      {
+        "empresa": "Venda Mais",
+        "cargo": "Analista de Sales Ops",
+        "inicio": "2020-03",
+        "fim": "Atual",
+        "descricao": "Substituí 15 relatórios complexos do Salesforce por 1 dashboard em PowerBI, adotado por toda a diretoria de vendas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Produção",
+        "instituicao": "UFPR",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Funil em 1 Minuto'",
+        "link": "#",
+        "descricao": "Painel que mostra a taxa de conversão de cada etapa do funil e o 'forecast' de vendas, de forma visual."
+      }
+    ],
+    "certificacoes": ["Microsoft Certified: Power BI Data Analyst"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Sales Ops", "DataViz", "CRM"]
+  },
+  {
+    "id": 45,
+    "nome": "Tatiana Valente",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=TV",
+    "cargo": "Especialista em Gestão Hospitalar",
+    "resumo": "Simplifico a gestão de leitos e centros cirúrgicos. Crio dashboards que mostram a ocupação em tempo real.",
+    "localizacao": "São Paulo/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Tasy", "MV", "PowerBI", "SQL", "Python"],
+    "softSkills": ["Visão de Processo", "Pensamento Crítico", "Gestão de Crise"],
+    "experiencias": [
+      {
+        "empresa": "Hospital Central",
+        "cargo": "Analista de BI em Saúde",
+        "inicio": "2019-07",
+        "fim": "Atual",
+        "descricao": "Desenvolvi o 'Painel de Ocupação' usado pela diretoria para gerenciar a alocação de leitos durante a pandemia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Biomédica",
+        "instituicao": "PUC-SP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Sala Cirúrgica'",
+        "link": "#",
+        "descricao": "Painel que monitora o tempo de limpeza e preparação de salas cirúrgicas, otimizando a agenda de operações."
+      }
+    ],
+    "certificacoes": ["Especialista em Gestão de Leitos"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["HealthTech", "Data Analytics", "Gestão Hospitalar"]
+  },
+  {
+    "id": 46,
+    "nome": "Ubiratan Guedes",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=UG",
+    "cargo": "Especialista em Infraestrutura de TI (PME)",
+    "resumo": "Migro pequenas empresas para a nuvem (Azure/AWS). Menos servidores físicos, menos dor de cabeça, mais segurança.",
+    "localizacao": "Brasília/DF",
+    "area": "TI",
+    "habilidadesTecnicas": ["Azure", "AWS", "Office 365", "Terraform", "Segurança"],
+    "softSkills": ["Comunicação Clara", "Visão de Custo", "Didática"],
+    "experiencias": [
+      {
+        "empresa": "Nuvem PME",
+        "cargo": "Arquiteto de Soluções Cloud",
+        "inicio": "2020-01",
+        "fim": "Atual",
+        "descricao": "Criei um 'Pacote de Migração' padronizado que leva um servidor de arquivos de uma PME para o SharePoint/Azure em 2 dias."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "Senac",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Guia 'Meu Escritório na Nuvem'",
+        "link": "#",
+        "descricao": "Checklist simples para donos de PME entenderem como funciona o backup em nuvem e o acesso remoto seguro."
+      }
+    ],
+    "certificacoes": ["Azure Fundamentals AZ-900"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Cloud", "Segurança", "PMEs"]
+  },
+  {
+    "id": 47,
+    "nome": "Vanessa Lins",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=VL",
+    "cargo": "Consultora de Visual Merchandising (VM)",
+    "resumo": "Simplifico o VM para franquias. Crio guias digitais (em app) que mostram como montar a vitrine, passo a passo.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Varejo",
+    "habilidadesTecnicas": ["Adobe Creative Suite", "Figma", "Canva", "React Native (conceitos)", "Fotografia"],
+    "softSkills": ["Criatividade", "Senso Estético", "Didática"],
+    "experiencias": [
+      {
+        "empresa": "Franquia de Moda",
+        "cargo": "Coordenadora de VM",
+        "inicio": "2019-03",
+        "fim": "Atual",
+        "descricao": "Substituí o 'Manual de VM' (PDF de 200 páginas) por um app que envia a 'Vitrine da Semana' com fotos e vídeos curtos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design de Moda",
+        "instituicao": "UFRGS",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'VM Rápido'",
+        "link": "#",
+        "descricao": "App onde o franqueado tira uma foto da vitrine montada e o sistema (IA simples) aprova ou sugere ajustes."
+      }
+    ],
+    "certificacoes": ["Especialista em Visual Merchandising"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["RetailTech", "Visual Merchandising", "Moda"]
+  },
+  {
+    "id": 48,
+    "nome": "William Tavares",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=WT",
+    "cargo": "Especialista em Manutenção Preditiva",
+    "resumo": "Instalo sensores (IoT) em máquinas antigas. Crio dashboards que avisam QUANDO a máquina vai quebrar, ANTES que ela quebre.",
+    "localizacao": "Manaus/AM",
+    "area": "Manufatura",
+    "habilidadesTecnicas": ["IoT", "Python", "MQTT", "PowerBI", "SQL"],
+    "softSkills": ["Pensamento Analítico", "Prevenção", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "Indústria 4.0 AM",
+        "cargo": "Engenheiro de IoT",
+        "inicio": "2020-07",
+        "fim": "Atual",
+        "descricao": "Implementei sensores de vibração e temperatura em 10 máquinas críticas, evitando 3 paradas não programadas no último ano."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Mecatrônica",
+        "instituicao": "UEA",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Saúde da Máquina'",
+        "link": "#",
+        "descricao": "Painel que mostra um 'semáforo' (Verde, Amarelo, Vermelho) para cada máquina, simplificando a decisão de manutenção."
+      }
+    ],
+    "certificacoes": ["Especialista em IIoT (Industrial IoT)"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Indústria 4.0", "IoT", "Manutenção Preditiva"]
+  },
+  {
+    "id": 49,
+    "nome": "Amanda Veloso",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=AV",
+    "cargo": "Especialista em Agronomia Digital",
+    "resumo": "Simplifico a gestão da fazenda. Crio mapas de colheita e dashboards de irrigação baseados em dados de drones e sensores.",
+    "localizacao": "Goiânia/GO",
+    "area": "Agronegócio",
+    "habilidadesTecnicas": ["Python", "GIS (QGIS)", "PowerBI", "Drones", "SQL"],
+    "softSkills": ["Visão Analítica", "Comunicação", "Visão de Negócio"],
+    "experiencias": [
+      {
+        "empresa": "AgroTech",
+        "cargo": "Cientista de Dados Agrícolas",
+        "inicio": "2021-02",
+        "fim": "Atual",
+        "descricao": "Desenvolvi um dashboard que cruza dados de pluviometria (chuva) com sensores de umidade do solo, para otimizar a irrigação."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Agronomia",
+        "instituicao": "UFG",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Mapa 'Talhão de Ouro'",
+        "link": "#",
+        "descricao": "Mapa visual que mostra quais talhões da fazenda são mais produtivos, ajudando na alocação de fertilizantes."
+      }
+    ],
+    "certificacoes": ["Especialista em Agricultura de Precisão"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["AgTech", "Data Science", "Sustentabilidade"]
+  },
+  {
+    "id": 50,
+    "nome": "Breno Pires",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=BP",
+    "cargo": "Especialista em Contratos (Jurídico)",
+    "resumo": "Eu leio as 'letras miúdas'. Uso IA para analisar contratos e apontar cláusulas de risco em minutos, não em dias.",
+    "localizacao": "São Paulo/SP",
+    "area": "Jurídico",
+    "habilidadesTecnicas": ["IA (NLP)", "Python", "OCR", "Legal Design", "SQL"],
+    "softSkills": ["Atenção aos Detalhes", "Pensamento Crítico", "Gestão de Risco"],
+    "experiencias": [
+      {
+        "empresa": "LawTech Solutions",
+        "cargo": "Analista de IA Jurídica",
+        "inicio": "2021-06",
+        "fim": "Atual",
+        "descricao": "Treinei um modelo de IA que identifica 5 tipos de cláusulas abusivas em contratos de adesão com 95% de acurácia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Direito",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma 'Contrato Seguro'",
+        "link": "#",
+        "descricao": "Ferramenta web onde o usuário faz upload de um contrato e o sistema devolve um 'semáforo' de risco."
+      }
+    ],
+    "certificacoes": ["Especialista em IA para Direito"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["LawTech", "IA", "NLP"]
+  },
+  {
+    "id": 51,
+    "nome": "Cíntia Gouveia",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=CG",
+    "cargo": "Especialista em Comunicação Interna",
+    "resumo": "Simplifico a comunicação interna. Substituo e-mails em massa por portais (intranet) e apps de comunicados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "RH",
+    "habilidadesTecnicas": ["SharePoint", "React", "Figma", "Canva", "PowerApps"],
+    "softSkills": ["Comunicação Clara", "Empatia", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Comunica Fácil",
+        "cargo": "Analista de Comunicação",
+        "inicio": "2020-04",
+        "fim": "Atual",
+        "descricao": "Liderei o projeto da nova intranet no SharePoint, que centralizou 100% dos comunicados, políticas e notícias."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Relações Públicas",
+        "instituicao": "PUC-MG",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App 'Mural Digital'",
+        "link": "#",
+        "descricao": "App simples (feito em PowerApps) para exibir comunicados em TVs espalhadas pela fábrica."
+      }
+    ],
+    "certificacoes": ["Especialista em Endomarketing"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Comunicação Interna", "SharePoint"]
+  },
+  {
+    "id": 52,
+    "nome": "Davi Sampaio",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=DS",
+    "cargo": "Especialista em BI para Varejo",
+    "resumo": "Crio dashboards para donos de loja. Meu foco é mostrar 'Qual produto mais vende?' e 'Qual está encalhado?'.",
+    "localizacao": "Recife/PE",
+    "area": "Varejo",
+    "habilidadesTecnicas": ["PowerBI", "SQL", "Excel", "LINX", "VTEX"],
+    "softSkills": ["Visão de Negócio", "Didática", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Varejo Inteligente",
+        "cargo": "Analista de BI",
+        "inicio": "2021-07",
+        "fim": "Atual",
+        "descricao": "Criei um dashboard de 'Curva ABC' que ajudou 30 lojas a otimizarem seus estoques, aumentando a margem em 5%."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFPE",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Vendas por Hora'",
+        "link": "#",
+        "descricao": "Painel que mostra o fluxo de vendas por hora do dia, ajudando o lojista a otimizar a escala de vendedores."
+      }
+    ],
+    "certificacoes": ["Microsoft Certified: Power BI Data Analyst"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["RetailTech", "DataViz", "BI"]
+  },
+  {
+    "id": 53,
+    "nome": "Ester Matos",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=EM",
+    "cargo": "Especialista em Cobrança (Finanças)",
+    "resumo": "Automatizo o processo de cobrança. Crio 'réguas de cobrança' com envio automático de boletos, SMS e WhatsApp.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Finanças",
+    "habilidadesTecnicas": ["RPA", "Python", "SQL", "APIs (WhatsApp)", "Salesforce"],
+    "softSkills": ["Negociação", "Comunicação Clara", "Visão de Processo"],
+    "experiencias": [
+      {
+        "empresa": "Recebe Fácil",
+        "cargo": "Analista de Automação Financeira",
+        "inicio": "2020-02",
+        "fim": "Atual",
+        "descricao": "Implementei uma régua de cobrança automatizada que reduziu a inadimplência (curto prazo) em 15%."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFRJ",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Portal 'Negocie Sua Dívida'",
+        "link": "#",
+        "descricao": "Portal web onde o cliente inadimplente pode ver a dívida, escolher um plano de parcelamento e gerar o boleto sozinho."
+      }
+    ],
+    "certificacoes": ["Especialista em Gestão de Crédito e Cobrança"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Fintech", "RPA", "Automação"]
+  },
+  {
+    "id": 54,
+    "nome": "Fábia Guedes",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=FG",
+    "cargo": "Especialista em SEO para PMEs",
+    "resumo": "Simplifico o SEO. Ensino donos de negócio a otimizar o 'Google Meu Negócio' e a criar conteúdo que atrai clientes locais.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["SEO Local", "Google My Business", "Semrush (Básico)", "WordPress", "Canva"],
+    "softSkills": ["Didática", "Comunicação Simples", "Paciência"],
+    "experiencias": [
+      {
+        "empresa": "Apareça no Google",
+        "cargo": "Consultora de SEO Local",
+        "inicio": "2021-01",
+        "fim": "Atual",
+        "descricao": "Ajudei 100+ negócios locais (restaurantes, lojas) a triplicarem as ligações vindas do Google Meu Negócio."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Jornalismo",
+        "instituicao": "UFPR",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Checklist 'SEO em 1 Dia'",
+        "link": "#",
+        "descricao": "Um guia de 10 passos simples para qualquer dono de loja otimizar seu perfil no Google e aparecer nas buscas locais."
+      }
+    ],
+    "certificacoes": ["Certificação em SEO (Semrush)"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["SEO Local", "Marketing de Conteúdo", "PMEs"]
+  },
+  {
+    "id": 55,
+    "nome": "Gilberto Neves",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=GN",
+    "cargo": "Especialista em Gestão de Facilities",
+    "resumo": "Simplifico a gestão de manutenção predial. Crio apps para abertura de chamados (ex: lâmpada queimada) e controle de limpeza.",
+    "localizacao": "São Paulo/SP",
+    "area": "Manufatura",
+    "habilidadesTecnicas": ["PowerApps", "SharePoint", "PowerBI", "SQL", "React Native"],
+    "softSkills": ["Organização", "Visão de Processo", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "Edifício Inteligente",
+        "cargo": "Analista de Facilities",
+        "inicio": "2019-05",
+        "fim": "Atual",
+        "descricao": "Criei um app 'SOS Prédio' onde funcionários abrem chamados de manutenção pelo celular, com foto, reduzindo o tempo de atendimento."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Civil",
+        "instituicao": "Mackenzie",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Gestão de Limpeza'",
+        "link": "#",
+        "descricao": "Painel que monitora (via QR Code) a frequência de limpeza de banheiros e áreas comuns."
+      }
+    ],
+    "certificacoes": ["Especialista em Gestão de Facilities"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Smart Buildings", "IoT", "Power Platform"]
+  },
+  {
+    "id": 56,
+    "nome": "Helena Castro",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=HC",
+    "cargo": "Especialista em Recepção Hospitalar",
+    "resumo": "Simplifico o 'check-in' em hospitais e clínicas. Crio totens de autoatendimento e apps para agendamento online.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["React", "Node.js", "Figma", "SQL", "Tasy"],
+    "softSkills": ["Empatia", "Comunicação Clara", "Visão de Processo"],
+    "experiencias": [
+      {
+        "empresa": "Clínica Ágil",
+        "cargo": "Desenvolvedora Front-End",
+        "inicio": "2021-09",
+        "fim": "Atual",
+        "descricao": "Desenvolvi a interface do totem de 'Check-in Expresso', que reduziu o tempo médio de espera na recepção de 20 para 3 minutos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-MG",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Portal 'Meu Agendamento'",
+        "link": "#",
+        "descricao": "Portal web onde o paciente agenda, confirma e reagenda consultas e exames, 100% online."
+      }
+    ],
+    "certificacoes": ["UX/UI Design"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["HealthTech", "UX Design", "Autoatendimento"]
+  },
+  {
+    "id": 57,
+    "nome": "Igor Drummond",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=ID",
+    "cargo": "Especialista em Logística (Última Milha)",
+    "resumo": "Simplifico a 'última milha' (last mile). Crio apps para motoristas com rotas otimizadas e confirmação de entrega.",
+    "localizacao": "São Paulo/SP",
+    "area": "Logística",
+    "habilidadesTecnicas": ["React Native", "Firebase", "Google Maps API", "Node.js", "SQL"],
+    "softSkills": ["Visão de Processo", "Agilidade", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "Entrega Certa",
+        "cargo": "Desenvolvedor Mobile Sênior",
+        "inicio": "2020-01",
+        "fim": "Atual",
+        "descricao": "Liderei o desenvolvimento do app 'Entrega Rápida', que inclui roteirização, comprovante de entrega digital e comunicação com o cliente."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "FIAP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Onde Está Meu Pedido?'",
+        "link": "#",
+        "descricao": "Painel de rastreamento em tempo real (baseado no GPS do app do motorista) para o cliente final."
+      }
+    ],
+    "certificacoes": ["AWS Certified Developer"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["LogTech", "Last Mile", "Mobilidade Urbana"]
+  },
+  {
+    "id": 58,
+    "nome": "Janaína Vargas",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=JV",
+    "cargo": "Especialista em Pesquisa de Clima (RH)",
+    "resumo": "Simplifico a Pesquisa de Clima. Crio formulários simples e dashboards automáticos que mostram o sentimento da empresa.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "RH",
+    "habilidadesTecnicas": ["Typeform", "Google Forms", "PowerBI", "Python (NLP básico)", "SQL"],
+    "softSkills": ["Escuta Ativa", "Análise de Dados", "Confidencialidade"],
+    "experiencias": [
+      {
+        "empresa": "RH Analítico",
+        "cargo": "Analista de People Analytics",
+        "inicio": "2021-03",
+        "fim": "Atual",
+        "descricao": "Automatizei o 'Dashboard de Clima' que cruza os dados da pesquisa com métricas de turnover, mostrando os focos de problema."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia",
+        "instituicao": "PUC-RS",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pesquisa 'Pulso Rápido'",
+        "link": "#",
+        "descricao": "Sistema de pesquisa semanal, de 1 pergunta só (via e-mail ou Slack), para medir o 'humor' da equipe."
+      }
+    ],
+    "certificacoes": ["Especialista em People Analytics"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["People Analytics", "Pesquisa de Clima"]
+  },
+  {
+    "id": 59,
+    "nome": "Kátia Moreira",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=KM",
+    "cargo": "Especialista em Tesouraria (Finanças)",
+    "resumo": "Automatizo o Fluxo de Caixa. Crio robôs que baixam extratos bancários e dashboards que projetam o caixa futuro.",
+    "localizacao": "São Paulo/SP",
+    "area": "Finanças",
+    "habilidadesTecnicas": ["RPA (UiPath)", "Python", "SQL", "Excel VBA", "PowerBI"],
+    "softSkills": ["Atenção aos Detalhes", "Visão Analítica", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Banco Corp",
+        "cargo": "Analista de Tesouraria",
+        "inicio": "2019-01",
+        "fim": "Atual",
+        "descricao": "Criei um robô que consolida os extratos de 10 bancos diferentes em um único dashboard de 'Posição de Caixa' diário."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciências Contábeis",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard 'Previsão de Caixa'",
+        "link": "#",
+        "descricao": "Painel que usa dados do Contas a Pagar e Receber para projetar o saldo bancário para os próximos 30 dias."
+      }
+    ],
+    "certificacoes": ["CPA-20"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Fintech", "RPA", "Tesouraria"]
+  },
+  {
+    "id": 60,
+    "nome": "Lucas Vasconcelos",
+    "foto": "https://placehold.co/100x100/E2E8F0/4A5568?text=LV",
+    "cargo": "Especialista em Social Media (PME)",
+    "resumo": "Simplifico a gestão de redes sociais. Crio templates no Canva e ensino donos de PME a programar posts para a semana toda.",
+    "localizacao": "Salvador/BA",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Canva", "Trello", "Meta Business Suite", "Google Analytics", "WordPress"],
+    "softSkills": ["Criatividade", "Didática", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Mídia Fácil",
+        "cargo": "Consultor de Marketing Digital",
+        "inicio": "2021-06",
+        "fim": "Atual",
+        "descricao": "Criei um 'Banco de Conteúdo' no Trello com 100 ideias de post e templates no Canva para PMEs usarem."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Comunicação Social",
+        "instituicao": "UFBA",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Treinamento 'Instagram em 1 Dia'",
+        "link": "#",
+        "descricao": "Workshop online que ensina donos de negócio a usar o Canva e a agendar 1 semana de posts em 2 horas."
+      }
+    ],
+    "certificacoes": ["Certificação em Marketing de Conteúdo (HubSpot)"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Social Media", "Marketing de Conteúdo", "PMEs"]
   }
 ]

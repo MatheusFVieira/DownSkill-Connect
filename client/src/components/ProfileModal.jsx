@@ -6,83 +6,156 @@ const CloseIcon = () => (
   </svg>
 );
 
-function ProfileModal({ profile, onClose }) {
-  // Se não há perfil selecionado, não renderiza nada
+function ProfileModal({ profile, onClose, isDarkMode }) {
   if (!profile) return null;
 
-  // Função para simular ações
   const handleSimulatedAction = (message) => {
     alert(`${message} (Simulação)`);
   };
 
   return (
-    // 1. O Fundo Escuro (Backdrop)
     <div 
-      className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 z-50"
-      onClick={onClose} // Fecha ao clicar fora do modal
+      className={`fixed inset-0 flex items-center justify-center p-4 z-50 transition-all backdrop-blur-sm ${
+        isDarkMode
+          ? 'bg-gray-900 bg-opacity-50'
+          : 'bg-white bg-opacity-30'
+      }`}
+      onClick={onClose} 
     >
-      {/* 2. O Conteúdo do Modal (Card) */}
+
       <div 
-        className="bg-gray-800 text-white w-full max-w-3xl rounded-lg shadow-2xl max-h-[90vh] overflow-y-auto"
-        onClick={(e) => e.stopPropagation()} // Impede que o clique no modal feche ele
+        className={`w-full max-w-3xl rounded-lg shadow-2xl max-h-[90vh] overflow-y-auto ${
+          isDarkMode
+            ? 'bg-gray-800 text-white'
+            : 'bg-white text-gray-900'
+        }`}
+        onClick={(e) => e.stopPropagation()} 
       >
-        {/* Cabeçalho do Modal com botão de fechar */}
-        <div className="flex justify-between items-center p-4 border-b border-gray-700 sticky top-0 bg-gray-800">
+        <div className={`flex justify-between items-center p-4 border-b sticky top-0 z-10 ${
+          isDarkMode
+            ? 'bg-gray-800 border-gray-700'
+            : 'bg-white border-gray-200'
+        }`}>
           <h2 className="text-2xl font-bold">Perfil Detalhado</h2>
-          <button onClick={onClose} className="text-gray-400 hover:text-white">
+          <button onClick={onClose} className={isDarkMode ? 'text-gray-400 hover:text-white' : 'text-gray-500 hover:text-gray-900'}>
             <CloseIcon />
           </button>
         </div>
 
-        {/* Corpo do Modal */}
         <div className="p-6 space-y-6">
-          {/* Seção: Resumo e Foto */}
+
           <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
             <img 
               src={profile.foto} 
               alt={`Foto de ${profile.nome}`}
-              className="w-32 h-32 rounded-full border-4 border-gray-600 object-cover flex-shrink-0" 
+              className={`w-32 h-32 rounded-full border-4 object-cover flex-shrink-0 ${
+                isDarkMode ? 'border-gray-600' : 'border-gray-300'
+              }`} 
             />
             <div className="text-center md:text-left">
               <h3 className="text-3xl font-bold">{profile.nome}</h3>
-              <p className="text-lg text-blue-300">{profile.cargo}</p>
-              <p className="text-sm text-gray-400 mt-1">{profile.localizacao}</p>
-              <p className="mt-4 text-gray-300">{profile.resumo}</p>
+              <p className={`text-lg ${isDarkMode ? 'text-blue-300' : 'text-blue-600'}`}>{profile.cargo}</p>
+              <p className={`text-sm mt-1 ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>{profile.localizacao}</p>
+              <p className={`mt-4 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>{profile.resumo}</p>
             </div>
           </div>
 
-          {/* Seção: Habilidades */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h4 className="font-semibold text-lg mb-2">Habilidades Técnicas</h4>
+              <h4 className={`font-semibold text-lg mb-2 border-b pb-1 ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>Habilidades Técnicas</h4>
               <div className="flex flex-wrap gap-2">
                 {profile.habilidadesTecnicas.map(skill => (
-                  <span key={skill} className="bg-blue-600 bg-opacity-30 text-blue-300 text-xs px-3 py-1 rounded-full">{skill}</span>
+                  <span key={skill} className={`text-xs px-3 py-1 rounded-full ${
+                    isDarkMode
+                      ? 'bg-blue-600 bg-opacity-30 text-blue-300'
+                      : 'bg-blue-100 text-blue-800'
+                  }`}>{skill}</span>
                 ))}
               </div>
             </div>
             <div>
-              <h4 className="font-semibold text-lg mb-2">Soft Skills</h4>
+              <h4 className={`font-semibold text-lg mb-2 border-b pb-1 ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>Soft Skills</h4>
               <div className="flex flex-wrap gap-2">
                 {profile.softSkills.map(skill => (
-                  <span key={skill} className="bg-green-600 bg-opacity-30 text-green-300 text-xs px-3 py-1 rounded-full">{skill}</span>
+                  <span key={skill} className={`text-xs px-3 py-1 rounded-full ${
+                    isDarkMode
+                      ? 'bg-green-600 bg-opacity-30 text-green-300'
+                      : 'bg-green-100 text-green-800'
+                  }`}>{skill}</span>
                 ))}
               </div>
             </div>
           </div>
 
-          {/* Adicione mais seções aqui (Experiências, Projetos) se existirem no seu db.json */}
+          <div>
+            <h4 className={`font-semibold text-lg mb-3 border-b pb-1 ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>Experiências</h4>
+            <div className="space-y-4">
+              {profile.experiencias.map((exp, index) => (
+                <div key={index}>
+                  <h5 className="font-semibold">{exp.cargo}</h5>
+                  <p className={`text-sm ${isDarkMode ? 'text-blue-300' : 'text-blue-600'}`}>{exp.empresa}</p>
+                  <p className={`text-xs ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>{exp.inicio} - {exp.fim}</p>
+                  <p className={`mt-1 text-sm ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>{exp.descricao}</p>
+                </div>
+              ))}
+            </div>
+          </div>
 
-          {/* Botões de Ação */}
-          <div className="flex flex-col sm:flex-row gap-4 pt-4 border-t border-gray-700">
+          <div>
+            <h4 className={`font-semibold text-lg mb-3 border-b pb-1 ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>Projetos</h4>
+            <div className="space-y-4">
+              {profile.projetos.map((proj, index) => (
+                <div key={index}>
+                  <a href={proj.link} target="_blank" rel="noopener noreferrer" className={`font-semibold hover:underline ${isDarkMode ? 'text-blue-400' : 'text-blue-600'}`}>{proj.titulo}</a>
+                  <p className={`mt-1 text-sm ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>{proj.descricao}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h4 className={`font-semibold text-lg mb-3 border-b pb-1 ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>Formação</h4>
+            <div className="space-y-2">
+              {profile.formacao.map((form, index) => (
+                <div key={index}>
+                  <h5 className="font-semibold">{form.curso}</h5>
+                  <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>{form.instituicao} - {form.ano}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <h4 className={`font-semibold text-lg mb-2 border-b pb-1 ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>Certificações</h4>
+              <ul className={`list-disc list-inside text-sm space-y-1 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                {profile.certificacoes.map(cert => (<li key={cert}>{cert}</li>))}
+              </ul>
+            </div>
+            <div>
+              <h4 className={`font-semibold text-lg mb-2 border-b pb-1 ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>Idiomas</h4>
+              <ul className={`list-inside text-sm space-y-1 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                {profile.idiomas.map(idioma => (
+                  <li key={idioma.idioma}><strong>{idioma.idioma}:</strong> {idioma.nivel}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className={`flex flex-col sm:flex-row gap-4 pt-6 border-t ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>
             <button 
               className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full sm:w-auto"
               onClick={() => handleSimulatedAction(`'${profile.nome}' recomendado!`)}
             >
               Recomendar Profissional
             </button>
+            
             <button 
-              className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded w-full sm:w-auto"
+              className={`font-bold py-2 px-4 rounded w-full sm:w-auto ${
+                isDarkMode
+                  ? 'bg-gray-600 hover:bg-gray-700 text-white'
+                  : 'bg-gray-200 hover:bg-gray-300 text-gray-800'
+              }`}
               onClick={() => handleSimulatedAction(`Mensagem enviada para '${profile.nome}'!`)}
             >
               Enviar Mensagem
