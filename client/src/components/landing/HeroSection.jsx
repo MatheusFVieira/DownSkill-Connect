@@ -4,7 +4,7 @@ function HeroSection({ isDarkMode }) {
   return (
     <section className="text-center">
       <h1 className="text-5xl md:text-7xl font-bold mb-4">
-        Repensando o Futuro do Trabalho. [cite: 2]
+        Repensando o Futuro do Trabalho.
       </h1>
       <h2 className={`text-2xl md:text-3xl font-light mb-8 ${
         isDarkMode ? 'text-blue-300' : 'text-blue-600'

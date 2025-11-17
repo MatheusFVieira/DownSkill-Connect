@@ -21,11 +21,11 @@ function ProblemSection({ isDarkMode }) {
           <p className={`text-lg mb-4 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
             Muitos falam em "UpSkilling", mas a realidade brasileira é outra. 
             Aprender leva tempo, e muitas pessoas não têm esse tempo, pois estão ocupadas 
-            garantindo o seu sustento. [cite: 11]
+            garantindo o seu sustento.
           </p>
           <p className={`text-lg ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
             Além disso, a educação de baixa qualidade dificulta a adoção de novas tecnologias, 
-            mesmo em negócios bem-sucedidos, criando uma grande lacuna digital. [cite: 38]
+            mesmo em negócios bem-sucedidos, criando uma grande lacuna digital.
           </p>
         </div>
       </div>
