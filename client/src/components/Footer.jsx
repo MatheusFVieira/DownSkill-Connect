@@ -10,7 +10,7 @@ function Footer({ isDarkMode }) {
           © 2025 Projeto DownSkilling.  Todos os direitos reservados.
         </p>
         <p className={`text-xs mt-2 ${isDarkMode ? 'text-gray-500' : 'text-gray-500'}`}>
-          Este é um projeto conceitual para a Global Solutions. [cite: 1, 28]
+          Este é um projeto conceitual para a Global Solutions.
         </p>
       </div>
     </footer>

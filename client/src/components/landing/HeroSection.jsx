@@ -17,18 +17,6 @@ function HeroSection({ isDarkMode }) {
         Em vez de exigir que todos aprendam habilidades complexas (UpSkilling), 
         nós usamos a tecnologia para tornar as tarefas difíceis mais fáceis para todos. 
       </p>
-      <div className="flex justify-center gap-4">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105">
-          Conheça a Solução
-        </button>
-        <button className={`font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105 ${
-          isDarkMode
-            ? 'bg-gray-700 hover:bg-gray-600'
-            : 'bg-gray-100 hover:bg-gray-200'
-        }`}>
-          Nossa Missão
-        </button>
-      </div>
     </section>
   );
 }

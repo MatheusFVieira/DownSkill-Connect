@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Ícone para a solução
 const CheckIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12 text-green-500">
     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" />
@@ -11,13 +10,12 @@ const CheckIcon = () => (
 function SolutionSection({ isDarkMode }) {
   return (
     <section className="text-center">
-      <h2 className="text-3xl font-bold mb-4">Nossa Solução: O DownSkilling [cite: 29]</h2>
+      <h2 className="text-3xl font-bold mb-4">Nossa Solução: O DownSkilling</h2>
       <p className={`max-w-3xl mx-auto text-lg mb-8 ${
         isDarkMode ? 'text-gray-300' : 'text-gray-700'
       }`}>
         Nossa proposta é o oposto. Em vez de treinar pessoas para tarefas complicadas, 
-        nós **simplificamos as tarefas** através de automação e tecnologia. [cite: 19] 
-        Levamos a "água até o cavalo". [cite: 20]
+        nós **simplificamos as tarefas** através de automação e tecnologia.
       </p>
       
       <div className={`max-w-4xl mx-auto p-8 rounded-lg shadow-lg ${
@@ -30,12 +28,12 @@ function SolutionSection({ isDarkMode }) {
             <CheckIcon />
           </div>
           <div className="text-left">
-            <h3 className="text-2xl font-semibold mb-2">Um ERP Popular e Intuitivo [cite: 50]</h3>
+            <h3 className="text-2xl font-semibold mb-2">Um ERP Popular e Intuitivo</h3>
             <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>
               Criamos softwares (como um ERP) tão intuitivos que pessoas de 
-              **qualquer nível de escolaridade** conseguem usar. [cite: 50] 
+              **qualquer nível de escolaridade** conseguem usar.
               Nossa ferramenta guia o usuário, automatiza tarefas repetitivas e 
-              ajuda ativamente a tomar decisões para o negócio. [cite: 46, 50, 51]
+              ajuda ativamente a tomar decisões para o negócio.
             </p>
           </div>
         </div>

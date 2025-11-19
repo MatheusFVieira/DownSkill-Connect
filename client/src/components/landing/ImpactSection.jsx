@@ -16,17 +16,17 @@ function ImpactSection({ isDarkMode }) {
     <section>
       <h2 className="text-3xl font-bold text-center mb-8">Nosso Impacto no Futuro</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <Card title="ODS 10: Redução de Desigualdades [cite: 82]">
+        <Card title="ODS 10: Redução de Desigualdades">
           Nossa ferramenta trará mais conhecimento e poder de execução para pessoas 
-          mais simples, reduzindo ativamente as desigualdades. [cite: 83]
+          mais simples, reduzindo ativamente as desigualdades.
         </Card>
-        <Card title="ODS 8 & 9: Inovação e Crescimento [cite: 84]">
+        <Card title="ODS 8 & 9: Inovação e Crescimento">
           Trazemos inovação para a indústria, aumentamos a qualidade de vida no trabalho 
-          e promovemos o crescimento econômico. [cite: 84]
+          e promovemos o crescimento econômico.
         </Card>
-        <Card title="ODS 4: Educação de Qualidade [cite: 85]">
+        <Card title="ODS 4: Educação de Qualidade">
           Usuários aprendem na prática a administrar um negócio com nosso guia IA, 
-          promovendo educação prática e acessível. [cite: 86]
+          promovendo educação prática e acessível.
         </Card>
       </div>
     </section>

@@ -1,10 +1,5 @@
-// Em: src/components/Header.jsx (Atualizado)
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
-// --- Ícones ---
-// (Seus ícones de Sol e Lua permanecem os mesmos)
 
 const SunIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -24,7 +19,6 @@ const MenuIcon = () => (
   </svg>
 );
 
-// Ícone de Fechar (X) - (Consistente com o seu ProfileModal.jsx)
 const CloseIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -33,27 +27,23 @@ const CloseIcon = () => (
 
 
 function Header({ isDarkMode, toggleDarkMode }) {
-  // 1. Estado para controlar o menu móvel
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Classes de estilo reutilizáveis para os links
   const navLinkClass = `
     font-semibold px-3 py-2 rounded-md transition-colors text-sm
     ${isDarkMode ? 'text-gray-300 hover:bg-gray-700' : 'text-gray-700 hover:bg-gray-100'}
   `;
 
   return (
-    // Adicionamos 'relative' para posicionar o menu móvel abaixo dele
     <header className="relative mb-8">
       <div className="flex justify-between items-center">
-        
-        {/* 1. Logo (agora usa <Link> do React Router) */}
+
         <Link 
           to="/"
           className={`p-1 rounded transition-colors ${
             isDarkMode ? 'bg-transparent' : 'bg-gray-800'
           }`}
-          onClick={() => setIsMenuOpen(false)} // Fecha o menu ao clicar na logo
+          onClick={() => setIsMenuOpen(false)}
         >
           <img
             src="/img.png"
@@ -62,8 +52,6 @@ function Header({ isDarkMode, toggleDarkMode }) {
           />
         </Link>
 
-        {/* 2. Navegação Principal (Desktop) */}
-        {/* 'hidden' em telas pequenas, 'flex' em 'md' (médias) ou maiores */}
         <nav className="hidden md:flex space-x-2">
           <Link to="/" className={navLinkClass}>
             Início
@@ -73,10 +61,8 @@ function Header({ isDarkMode, toggleDarkMode }) {
           </Link>
         </nav>
 
-        {/* 3. Controles da Direita (Toggle e Hamburger) */}
         <div className="flex items-center space-x-2">
-          
-          {/* Botão de Dark Mode (seu código original) */}
+
           <button
             onClick={toggleDarkMode}
             className={`p-2 rounded-full transition-colors ${
@@ -89,8 +75,6 @@ function Header({ isDarkMode, toggleDarkMode }) {
             {isDarkMode ? <SunIcon /> : <MoonIcon />}
           </button>
 
-          {/* Botão Hamburger (Mobile) */}
-          {/* 'md:hidden' esconde este botão em telas médias ou maiores */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className={`p-2 rounded-md md:hidden transition-colors ${
@@ -105,11 +89,6 @@ function Header({ isDarkMode, toggleDarkMode }) {
         </div>
       </div>
 
-      {/* 4. Painel do Menu Móvel */}
-      {/* Este painel aparece abaixo do header.
-        Usamos 'md:hidden' para garantir que ele NUNCA apareça em desktop.
-        As classes de transição dão o efeito de "abrir e fechar".
-      */}
       <div
         className={`
           absolute top-full left-0 right-0 z-20 mt-2 md:hidden
@@ -127,14 +106,14 @@ function Header({ isDarkMode, toggleDarkMode }) {
             <Link 
               to="/" 
               className={navLinkClass}
-              onClick={() => setIsMenuOpen(false)} // Fecha o menu ao navegar
+              onClick={() => setIsMenuOpen(false)} 
             >
               Início
             </Link>
             <Link 
               to="/profiles" 
               className={navLinkClass}
-              onClick={() => setIsMenuOpen(false)} // Fecha o menu ao navegar
+              onClick={() => setIsMenuOpen(false)} 
             >
               Buscar Perfis
             </Link>

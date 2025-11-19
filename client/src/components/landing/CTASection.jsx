@@ -10,9 +10,6 @@ function CTASection({ isDarkMode }) {
         Junte-se a nós na revolução do DownSkilling e traga o poder da tecnologia 
         para o seu negócio, sem a complexidade.
       </p>
-      <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-all transform hover:scale-105">
-        Comece Agora (Simulação)
-      </button>
     </section>
   );
 }
