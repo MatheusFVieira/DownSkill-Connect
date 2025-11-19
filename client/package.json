@@ -1,6 +1,5 @@
 {
   "name": "downskill_connect",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
